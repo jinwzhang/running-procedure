@@ -23,7 +23,7 @@ def clean_and_cut(string1):
 
 class EventKeeper:
     def __init__(self, db_type, server, job_name, tx_date):
-        self.session = DB_Buddy.DatabaseBuddy('Oracle', 'dwdba', 'dwdba#123', '10.161.102.74', '1521/phdw')
+        self.session = DB_Buddy.DatabaseBuddy('Oracle', 'dwdba', 'dwdba', '10.***.***.74', '1521')
         self.db_type = db_type
         self.server = server
         self.job_name = job_name
